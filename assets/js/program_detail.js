@@ -180,7 +180,7 @@ $(function() {
             $('.room-preferences__accommodation .room-preferences__program-price .cost').text(roomprice);
             totalsum();
 
-        };
+        }
 
     });
 });
@@ -213,7 +213,7 @@ $(function() {
             if (summ != 0) { list += "<li> " + title + " " + qty + " шт" + " </li> "; }
 
             if (summ != 0) { listHidden += "| " + title + " " + qty + " шт" + " |"; }
-            col += +qty
+            col += +qty;
 
         });
         var sale = '';
@@ -233,7 +233,7 @@ $(function() {
     count_totals();
     $("input").on("change", function() {
         count_totals();
-    })
+    });
 
 });
 
@@ -267,7 +267,7 @@ $(document).ready(function() {
 
         $(this).addClass('current');
         $(tab_id).addClass('current');
-    })
+    });
 
 });
 

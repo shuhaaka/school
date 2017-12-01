@@ -173,7 +173,6 @@
 }
 
 .room-matrix__open-detail {
-    float: left;
     margin-right: 2.47831%;
     margin-left: 0;
     color: inherit;
@@ -246,6 +245,7 @@
     line-height: 0;
     font-size: 14px;
 }
+
 
 .room-preferences__header {
     display: table;

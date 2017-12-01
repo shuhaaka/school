@@ -21350,7 +21350,6 @@ code {
 
 .m-list-search .m-list-search__results .m-list-search__result-item .m-list-search__result-item-pic img {
     display: block;
-    vertical-align: middle;
     max-width: 35px!important
 }
 
@@ -26148,7 +26147,6 @@ body.m-portlet--fullscreen.m-aside-left--fixed .m-aside-left {
 }
 
 .m-widget24 .m-widget24__item .m-widget24__number {
-    float: right;
     margin-right: 1.8rem;
     display: inline-block;
     margin-bottom: 2.86rem;
@@ -30143,7 +30141,6 @@ th>.m-checkbox.m-checkbox--single {
 .m-switch input:empty~span {
     display: inline-block;
     position: relative;
-    float: left;
     width: 1px;
     text-indent: 0;
     cursor: pointer;
@@ -31508,7 +31505,7 @@ th>.m-checkbox.m-checkbox--single {
 
 .table.table-striped tbody td,
 .table.table-striped tbody th {
-    border1: 0
+    border: 0
 }
 
 .m-table.m-table--head-no-border thead th {
