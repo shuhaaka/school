@@ -246,7 +246,6 @@
     font-size: 14px;
 }
 
-
 .room-preferences__header {
     display: table;
     padding-bottom: 20px;
@@ -817,7 +816,7 @@ a.second-nav__view {
 }
 
 .rank_block {
-    background-image: url(../media/img/rank1.png);
+    background-image: url(../images/rank1.png);
     height: 180px;
     width: 150px;
     background-repeat: no-repeat;
@@ -852,8 +851,97 @@ p {
     margin-bottom: 20px;
 }
 
+.program_total {
+    list-style: none;
+    padding: 0;
+}
+
+.program_total li {
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    margin-right: 20px;
+    padding: 10px 0 10px 10px;
+}
+
+.program_total .current,
+.program_total li:hover {
+    border-left: 4px solid #55ce63;
+}
+
+.add_icon,
+.addr_name,
+.program_total .fa-chevron-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.add_icon i {
+    font-size: 30px;
+}
+
+.addr_name {
+    width: 85%;
+    line-height: 2rem;
+}
+
+.pweather,
+.prmap {
+    height: 0;
+    opacity: 0;
+}
+
+.addr_name h6 {
+    margin-bottom: 0;
+}
+
+.prmap.current {
+    height: 100%;
+    opacity: 1;
+    animation: fadeInRight ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: .2s;
+}
+
+.pweather,
+.prmap {
+    height: 0;
+    opacity: 0;
+}
+
+.pweather.current {
+    height: 100%;
+    opacity: 1;
+    animation: fadeInLeft ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: .2s;
+}
+
+.pweather.current .card-title {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.total-sales {
+    position: relative;
+}
+
+.pweather .card-title {
+    display: none;
+}
+
+.program_adress,
+.program_map {
+    width: 50%
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
 .ranks_block {
-    background-image: url(../media/img/rank2.png);
+    background-image: url(../images/rank2.png);
     height: 180px;
     width: 150px;
     background-repeat: no-repeat;
